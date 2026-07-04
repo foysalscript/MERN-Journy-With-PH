@@ -1,0 +1,6 @@
+/* External CSS file, linked using <link> tag */
+
+.external-box {
+  border: 2px solid green;
+  padding: 10px;
+}
