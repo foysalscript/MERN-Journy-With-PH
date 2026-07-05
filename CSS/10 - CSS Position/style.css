@@ -1,0 +1,42 @@
+/* Position */
+
+.parent {
+  position: relative;
+  height: 150px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.position-static {
+  position: static;
+  background-color: lightgray;
+}
+
+.position-relative {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: lightblue;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: lightgreen;
+}
+
+.position-fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.position-sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightyellow;
+  padding: 10px;
+}
