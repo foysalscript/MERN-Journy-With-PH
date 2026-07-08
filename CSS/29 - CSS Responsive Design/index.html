@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Responsive Design - Media Queries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section>
+    <h2>1. Current Breakpoint</h2>
+    <p class="width-hint">Resize the browser window to see this label change.</p>
+    <div class="breakpoint-label label-mobile">Mobile (0 - 599px)</div>
+    <div class="breakpoint-label label-tablet">Tablet (600 - 899px)</div>
+    <div class="breakpoint-label label-desktop">Desktop (900 - 1199px)</div>
+    <div class="breakpoint-label label-large">Large Screen (1200px+)</div>
+  </section>
+
+  <section>
+    <h2>2. Responsive Grid (1 -> 2 -> 3 -> 4 columns)</h2>
+    <div class="responsive-grid">
+      <div class="grid-box">1</div>
+      <div class="grid-box">2</div>
+      <div class="grid-box">3</div>
+      <div class="grid-box">4</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Responsive Navbar (stacked -> horizontal)</h2>
+    <nav class="nav-responsive">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </section>
+
+  <section>
+    <h2>4. Responsive Typography</h2>
+    <p class="responsive-heading">This heading grows as the screen gets wider.</p>
+  </section>
+
+  <section>
+    <h2>5. Hide / Show Elements</h2>
+    <p class="mobile-only">Visible only on mobile/tablet (below 900px)</p>
+    <p class="desktop-only">Visible only on desktop (900px and above)</p>
+  </section>
+
+  <section>
+    <h2>6. Orientation Media Query</h2>
+    <div class="orientation-box"></div>
+  </section>
+
+  <section>
+    <h2>7. Range Media Query (600px - 899px only)</h2>
+    <div class="range-box">Range Box</div>
+  </section>
+
+</body>
+</html>
