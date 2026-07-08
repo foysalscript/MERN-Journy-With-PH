@@ -38,7 +38,7 @@ h2 {
 .magazine-grid .m-item {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
   display: flex;
   align-items: flex-end;
@@ -173,7 +173,8 @@ h2 {
 
 .hg-header {
   grid-area: header;
-  background-color: #1f2937;
+  text-align: center;
+  background-color: #1f2937 !important;
   color: white;
 }
 
@@ -183,6 +184,7 @@ h2 {
 
 .hg-content {
   grid-area: content;
+  text-align: center;
 }
 
 .hg-aside {
@@ -191,7 +193,7 @@ h2 {
 
 .hg-footer {
   grid-area: footer;
-  background-color: #1f2937;
+  background-color: #1f2937 !important;
   color: white;
   text-align: center;
 }
